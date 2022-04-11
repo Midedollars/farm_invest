@@ -9,6 +9,6 @@ module.exports = {
         },
 
     session: {
-        cookieKey: process.env.COOKIEKEY,
+        COOKIEKEY: process.env.COOKIEKEY,
       },
 };
