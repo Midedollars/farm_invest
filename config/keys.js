@@ -1,8 +1,8 @@
 const dotenv = require('dotenv').config();
 module.exports = {
     google: {
-        clientID: process.env.CLIENTID,
-        clientSecret: process.env.CLIENTSECRET,
+        clientID: process.env.clientID,
+        clientSecret: process.env.clientSecret,
     },
         mongodb: {
             DATABASE_URI: process.env.DATABASE_URI,
